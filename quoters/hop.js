@@ -1,6 +1,6 @@
 import { Hop, Chain } from "@hop-protocol/sdk";
 import { Wallet, providers } from "ethers";
-import { PROVIDER } from "./providers.js";
+import { PROVIDER } from "../constants/providers.js";
 import ethers from "ethers";
 
 const hop = new Hop("mainnet", PROVIDER.ETHEREUM);

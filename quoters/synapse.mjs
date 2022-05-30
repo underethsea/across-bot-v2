@@ -1,7 +1,7 @@
 import { Bridge, Tokens, ChainId, Networks } from "@synapseprotocol/sdk";
 
 import { ethers } from "ethers";
-import { PROVIDER } from "./providers.js";
+import { PROVIDER } from "../constants/providers.js";
 
 const synapseAsset = (symbol) => {
   if (symbol === "WETH" || symbol === "ETH") {

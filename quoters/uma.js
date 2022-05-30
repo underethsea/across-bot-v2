@@ -1,6 +1,6 @@
 import * as uma from "@uma/sdk"
 import ethers from "ethers"
-import {PROVIDER} from "./providers.js"
+import {PROVIDER} from "../constants/providers.js"
 const { gasFeeCalculator, constants, utils } = uma.across
 const LpFeeCalculator = uma.across.LpFeeCalculator
 

@@ -5,15 +5,15 @@ import fetch from "cross-fetch";
 import Discord from "discord.js";
 import { MessageEmbed } from "discord.js";
 
-import { GeckoPrice } from "./geckoFetch.js";
-import { ChainInfo } from "./chainInfo.js"
-import { SynapseReceived } from "./synapse.mjs";
-import { HopReceived } from "./hop.js";
+import { GeckoPrice } from "./utils/geckoFetch.js";
+import { ChainInfo } from "./utils/chainInfo.js"
+import { SynapseReceived } from "./quoters/synapse.mjs";
+import { HopReceived } from "./quoters/hop.js";
 
-import { ABI } from "./abi.js";
-import { BRIDGEPOOL } from "./constants.js";
-import { RELAYFILTERS, DEPOSITFILTERS } from "./filters.js";
-import { PROVIDER } from "./providers.js";
+import { ABI } from "./constants/abi.js";
+import { BRIDGEPOOL } from "./constants/constants.js";
+import { RELAYFILTERS, DEPOSITFILTERS } from "./constants/filters.js";
+import { PROVIDER } from "./constants/providers.js";
 
 import Twit from "twit";
 
